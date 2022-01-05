@@ -724,7 +724,7 @@
   <script>
     function validate(){
 
-if(nameValidate()==true || emailValidate()==true || mobileValidate()==true || messageValidate()==true){
+if(nameValidate()==true && emailValidate()==true && mobileValidate()==true || messageValidate()==true){
 
     $.ajax({
         url:"https://script.google.com/macros/s/AKfycbx2_wCdaHKJ2yVaDMOLZGgN1fk8rtd_g-bpkTcTXne15edwAb6xZg_JbUTg1LCPuW7lhg/exec",
